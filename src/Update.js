@@ -19,7 +19,7 @@ export default function Update(){
         setRno(loc.state.r);
         setName(loc.state.n);
         setMarks(loc.state.m);
-    })
+    },[loc.state.r, loc.state.n, loc.state.m])
     
     const save = (event)=>{
         event.preventDefault();
