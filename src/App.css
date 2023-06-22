@@ -1,0 +1,39 @@
+* {
+  font-size: 114%;
+}
+.nav { 
+  background-color: rgb(167, 218, 65);
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.nav a {
+  background-color: white;
+  text-decoration: none;
+  margin: 10%;
+  border-radius: 15%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border: 2px solid black;
+  box-shadow: 5px 5px ;
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+.del {
+  background-color: red;
+  color: white;
+  border-radius: 15%;
+}
+.upd {
+  background-color: lightgreen;
+  color: white;
+  border-radius: 15%;
+}
